@@ -3,10 +3,10 @@ node_modules
 ntask.sqlite
 public
 logs
+.env\#*
 
 # osx
 .DS_Store
 
 # emacs
 *~
-\#*

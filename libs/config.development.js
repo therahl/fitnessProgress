@@ -1,12 +1,12 @@
 import logger from './logger.js';
 
 module.exports = {
-  database: 'ntask',
-  username: '',
+  database: 'fitnessprogress',
+  username: 'kylehennessy',
   password: '',
   params: {
-    dialect: 'sqlite',
-    storage: 'ntask.sqlite',
+    dialect: 'postgres',
+    // storage: 'ntask.postgres',
     logging: (sql) => {
       logger.info(`[${new Date()}] ${sql}`);
     },
